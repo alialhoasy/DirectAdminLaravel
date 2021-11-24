@@ -1,1 +1,2 @@
 # DirectAdminLaravel
+# How to use
