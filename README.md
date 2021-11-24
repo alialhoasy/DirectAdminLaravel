@@ -1,5 +1,5 @@
 # DirectAdminLaravel
-### Class for adding, modifying and deleting e-mails to the Directadmin control panel for Laravel
+#### Class for adding, modifying and deleting e-mails to the Directadmin control panel for Laravel
 ## How to use
 ### Before starting, you must add the following lines in the your TestController.php
 ```
