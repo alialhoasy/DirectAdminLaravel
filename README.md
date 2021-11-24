@@ -7,7 +7,7 @@ use App\CustomClass\DA_Api;
 use App\CustomClass\DA_Emails;
 use App\Email;
 ```
-###Create New Email
+### Create New Email
 ```
 $socket = new DirectAdmin;
 $socket->connect('domain.com', 2222);
@@ -19,7 +19,7 @@ $emails = new DA_Emails;
 $emails->create('test@domain.com', '123456', 100);
 ```
 #### create method Containing email and password and quota, if it quota 0 this mean unlimited
-###Delete Email
+### Delete Email
 ```
 $socket = new DirectAdmin;
 $socket->connect('domain.com', 2222);
