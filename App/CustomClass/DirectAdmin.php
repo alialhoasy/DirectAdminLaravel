@@ -30,27 +30,7 @@ namespace App\CustomClass;
  * added isset to headers['location'], line 306
  */
 
-	// Optional, you can pass these as arguments of the class constructor too
-// displays the users
-// print_r($emails->fetch());
-// // creates a new user, should return true
-// $emails->create('testing1', 'test_pass', 0);
-// // fetches the data, quota and usage, of one user
-// print_r($emails->fetchUserQuota('testing'));
-// // sets a new password and quota
-// var_dump($emails->modify('testing', 'new_test_pass', 30));
-// // fetches all data, including quotas and usage
-// print_r($emails->fetchQuotas());
-// // deletes the test user, should be true
-// var_dump($emails->delete('testing'));
-// $socket = new DirectAdmin;
-// $socket->connect('jport.co', 2222);
-// $socket->set_login('admin', 'alihameed07709');
-// DA_Api::$DEFAULT_SOCKET = $socket;
-// DA_Api::$DEFAULT_DOMAIN = 'jport.co';
-// // new DA_Emails instance
-// $emails = new DA_Emails;
-// $emails->create($request->f1, $request->f2, 0);
+// Optional, you can pass these as arguments of the class constructor too
 
 class DirectAdmin {
 
